@@ -97,7 +97,9 @@ function characterSet(){
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
+  console.log("Before");
   askAllTheQuestions();
+  console.log("After");
 
   var result = "";
   var allCharacters = characterSet();

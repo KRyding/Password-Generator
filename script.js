@@ -9,6 +9,7 @@ var upperCaseAllowed = false;
 
 function askAllTheQuestions(){
   //reset variables
+  console.log("resetting variables");
   numberOfCharacters = 0;
   specialCharsAllowed = false;
   numbersAllowed = false;

@@ -8,6 +8,14 @@ var lowerCaseAllowed = false;
 var upperCaseAllowed = false;
 
 function askAllTheQuestions(){
+  //reset variables
+  numberOfCharacters = 0;
+  specialCharsAllowed = false;
+  numbersAllowed = false;
+  lowerCaseAllowed = false;
+  upperCaseAllowed = false;
+
+  
   //Identifying the number of characters the user would like to use
   var askNumberofCharacters = window.prompt("How many characters do you want in your password? (8-128)");
   

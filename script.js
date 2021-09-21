@@ -39,7 +39,7 @@ function askAllTheQuestions(){
     return;
   }*/
 
-  if( numberOfCharacters < 8 || numberOfCharacters > 128 ){
+  if( isNaN(numberOfCharacters) || numberOfCharacters < 8 || numberOfCharacters > 128 ){
     alert("You MUST enter a value between 8 and 128");
     return;
   } else {

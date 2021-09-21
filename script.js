@@ -21,10 +21,11 @@ function askAllTheQuestions(){
   var askNumberofCharacters = window.prompt("How many characters do you want in your password? (8-128)");
   
   if (askNumberofCharacters == null || askNumberofCharacters == "") {
-    console.log("help");
     return;
-  } else {
-    console.log("boo");
+  } 
+  
+  if (isNaN(askNumberofCharacter) {
+      console.log("this might work!");
   }
   
   numberOfCharacters = parseInt(askNumberofCharacters);

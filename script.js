@@ -24,7 +24,7 @@ function askAllTheQuestions(){
     return;
   } 
   
-  if (isNaN(askNumberofCharacter) {
+  if (isNaN(askNumberofCharacter)) {
       console.log("this might work!");
   }
   
